@@ -1,5 +1,5 @@
 const section = document.getElementById("conversions");
-const convertBtn = document.getElementById("convert-button")
+const convertBtn = document.getElementById("convert-button");
 const conversions = [
 /*
 1 meter = 3.281 feet
@@ -50,6 +50,6 @@ function renderConversions() {
 
 convertBtn.addEventListener("click", function() {
     renderConversions();
-})
+});
 
 renderConversions();
