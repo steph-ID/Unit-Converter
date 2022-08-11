@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    background: #1F2937;
+}
+
+header {
+    min-height: 285px;
+    background: #6943FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #FFFFFF;
+    padding: 33px;
+    margin: 0;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -0.03em;
+}
+
+#unit-input {
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 24px;
+    text-align: center;
+    background: transparent;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+
+button {
+    width: 117px;
+    height: 42px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+    border: none;
+    color: #3D3D3D;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#conversions {
+    max-width: 550px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+#conversions p {
+    margin-bottom: 0;
+    padding: 0;
+}
+#conversions h2 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #CCC1FF;
+    margin: 0;
+    padding: 0;
+}
+
+.conversion-div {
+    background: #273549;
+    border-radius: 5px 0px 0px 0px;
+    padding: 30px;
+    margin: 24px;
+}
